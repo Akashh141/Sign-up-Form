@@ -1,0 +1,182 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+  @font-face {
+    font-family: 'Norse-Bold';
+    src: url('Norse-Bold.otf');
+}
+body{
+    margin: 0;
+   font-family: "Heebo";
+   
+    
+}
+
+.container{
+    display: flex;
+ 
+}
+
+.img1{
+    display: flex;
+    
+    width: 500px;
+    height: 100vh;
+  
+}
+.img_container {
+    display: flex;
+    width: 500px;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.img_container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.box {
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    background-color: rgba(0,0,0,.5);
+    
+    color: #fff;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+.img2{
+    position: absolute;
+   
+    height: 120px;
+    width:  120px;
+   
+    top: 30%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+
+}
+
+.centered {
+    position: absolute;
+   
+    font-family:Norse-Bold ;
+    font-size: 80px;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    
+}
+.first-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+    font-size: 20px;
+    background-color:#f4f4f6;
+    text-align: start;
+    padding-right: 200px;
+    padding-left: 40px;
+   
+}
+
+.fbt2{
+    margin-top: 0;
+}
+.second-box{
+    display: flex;
+    height: 100%;
+    flex-direction:column;
+    box-shadow: 0px 2px 10px  lightslategrey;
+    
+}
+.do{
+    margin-left: 50px;
+}
+form{
+    
+    margin-left: 50px;
+}
+input{
+    border-radius: 5px;
+    width: 220px;
+    height: 22px;
+    border: 1px solid #E5E7EB;
+  
+    outline: none;
+   
+    
+  
+    
+}
+input:focus {
+    box-shadow: 3px 3px 10px lightslategray;
+    border-color: #2c94d4;
+ }
+.names,.mailandphone,.passwords{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.mailandphone,.passwords{
+    margin-top: 15px;
+}
+.passwords{
+    margin-bottom: 30px;
+}
+.a,.b,.c,.d,.e,.f{
+    display: flex;
+    flex-direction: column;
+}
+.names,.mailandphone,.passwords{
+    display: flex;
+    gap:100px;
+}
+label{
+    font-size: small;
+    color: gray;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+button{
+    color: white;
+    font-family: "Heebo";
+    font-weight: 500;
+    box-shadow: 2px 1px 10px lightslategray;
+    border: 0;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    background-color: #596D48;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.third-box{
+    background-color:#f4f4f6;
+    height: 100%;
+}
+.third-box>p{
+    margin-left: 50px;
+    
+}
+.multicolortext{
+    color: #596D48;
+    font-weight: 800;
+}
+
+
+
+

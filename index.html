@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="img_container"> 
+    
+            <img class="img1" src="forest.jpg" alt="forest image">
+            <div class="box"></div>
+            
+            <img class = "img2" src="odin.png" alt="odin">
+            <div class="centered">odin</div>
+          
+            
+        </div>
+        <div class="content-container">
+            <div class="first-box">
+                <h3 class="fbt1">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started. </h3>
+                <h3 class="fbt2">You know you want to.</h3>
+            </div>
+            
+            <div class="second-box">
+                <h2 class="do">Lets do this!</h2>
+
+                <form action="www.google.com" method="post">
+                    
+                    <div class="names">
+                        <div class="a">
+                            <label for="fname">FIRST NAME</label>
+                            <input type="text" id="fname" name="user_name">
+                        </div>  
+                        <div class="b">
+                            <label for="lname">LAST NAME</label>
+                            <input type="text" id="lname" name="user_name">
+                        </div>
+                    </div>
+                    
+                    <div class="mailandphone">
+                        <div class="c">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email"
+                                pattern=".+@globex\.com" size="30" required>
+                        </div>
+                        <div class="d">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone"
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="passwords">
+                        <div class="e">
+                            <label for="pass">PASSWORD</label>
+                            <input type="password" id="pass" name="password"
+                                   minlength="8" required>
+                        </div>
+                        <div class="f">
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <input type="password" ID="confirm_password"  required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="third-box">
+                <button>Create Account</button>
+                <p>Already have an account? <span class="multicolortext">Log In</span></p>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
